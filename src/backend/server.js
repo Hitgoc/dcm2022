@@ -5,11 +5,12 @@ const app = express();
 const cors = require("cors");
 require("./database");
 
+app.use(cors());
+
 const staticPath = path.resolve(__dirname, "../../build");
 
 app.use(express.static(staticPath));
 
-app.use(cors());
 app.use(express.json({ limit: "100mb" }));
 app.use("/", router);
 
