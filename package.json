@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node ./src/backend/server",
     "build": "react-scripts build",
     "server": "nodemon ./src/backend/server",
     "test": "echo \"Error: no test specified\" && exit 1"
