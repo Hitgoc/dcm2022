@@ -1,0 +1,19 @@
+{
+    "env": {
+        "DB_USER": "dcm",
+        "DB_PASS": "7CwBMhCqw1cq0RmI",
+        "DB_NAME": "dcmDB",
+        "DB_TEACHER_COLLECTION_NAME": "dcm_teacher_cls",
+        "DB_STUDENT_COLLECTION_NAME": "dcm_student_cls",
+        "DB_CLASS_COLLECTION_NAME": "dcm_classes",
+        "DB_INVITATION_COLLECTION_NAME": "dcm_student_invitations",
+        "DB_ACCEPTED_INVITATION": "dcm_invitation_accepted",
+        "DB_FILE_COLLECTION_NAME": "dcm_files",
+        "STUDENT_SK": "ad19ks1had9khia26s6ds7s7d6",
+        "TEACHER_SK": "au8ua6xhad9khia26s6d9m17d6",
+        "SKT": "1d",
+        "CLOUD_NAME": "hitgoga",
+        "API_KEY": "759814111536674",
+        "API_SECRET": "AWodHneA9n5XROdwZIy_BNTo3GU"
+    }
+}

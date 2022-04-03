@@ -1,0 +1,13 @@
+#container {
+    width: 500px;
+  }
+  
+  @media (max-width: 639px) {
+    #container {
+      width: 360px;
+    }
+    #studentCard {
+      margin-top: 20px;
+    }
+  }
+  

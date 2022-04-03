@@ -1,0 +1,43 @@
+{
+  "name": "dcm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "server": "nodemon ./src/backend/server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.29.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "dotenv-webpack": "^7.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mdb-react-ui-kit": "^3.0.0",
+    "mongoose": "^6.2.9",
+    "nodemon": "^2.0.15",
+    "react": "^18.0.0",
+    "react-bootstrap": "^2.2.2",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^5.0.0",
+    "react-uuid": "^1.0.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
